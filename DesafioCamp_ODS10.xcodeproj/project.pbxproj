@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */; };
 		7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */; };
 		7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */; };
 		7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.debug.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.debug.xcconfig"; sourceTree = "<group>"; };
+		797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioCamp_ODS10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
 		7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
+		C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.release.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3160843BB132D2C6722C15A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E4D390A280B4C9000A7F25B /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +121,8 @@
 			children = (
 				7E58D68D280B06D40095AFFB /* DesafioCamp_ODS10 */,
 				7E58D68C280B06D40095AFFB /* Products */,
+				998EFDAFCE74C294D5557358 /* Pods */,
+				3160843BB132D2C6722C15A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +161,16 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		998EFDAFCE74C294D5557358 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */,
+				C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E58D69F280B06D50095AFFB /* Build configuration list for PBXNativeTarget "DesafioCamp_ODS10" */;
 			buildPhases = (
+				045C9293C2DE378A32C920D3 /* [CP] Check Pods Manifest.lock */,
 				7E58D687280B06D40095AFFB /* Sources */,
 				7E58D688280B06D40095AFFB /* Frameworks */,
 				7E58D689280B06D40095AFFB /* Resources */,
@@ -216,6 +242,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045C9293C2DE378A32C920D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioCamp_ODS10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E58D687280B06D40095AFFB /* Sources */ = {
@@ -376,6 +427,7 @@
 		};
 		7E58D6A0280B06D50095AFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -405,6 +457,7 @@
 		};
 		7E58D6A1280B06D50095AFFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
