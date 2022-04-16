@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */; };
+		7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FA280B52D00060FECD /* TableViewList.swift */; };
 		7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */; };
 		7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */; };
 		7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */; };
@@ -16,7 +18,7 @@
 		7E4D391B280B4F1200A7F25B /* TableCellComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */; };
 		7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D68E280B06D40095AFFB /* AppDelegate.swift */; };
 		7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D690280B06D40095AFFB /* SceneDelegate.swift */; };
-		7E58D693280B06D40095AFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D692280B06D40095AFFB /* ViewController.swift */; };
+		7E58D693280B06D40095AFFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D692280B06D40095AFFB /* HomeViewController.swift */; };
 		7E58D696280B06D40095AFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D694280B06D40095AFFB /* Main.storyboard */; };
 		7E58D698280B06D50095AFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D697280B06D50095AFFB /* Assets.xcassets */; };
 		7E58D69B280B06D50095AFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */; };
@@ -29,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.debug.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.debug.xcconfig"; sourceTree = "<group>"; };
+		797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioCamp_ODS10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2D15FA280B52D00060FECD /* TableViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewList.swift; sourceTree = "<group>"; };
 		7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
@@ -39,7 +44,7 @@
 		7E58D68B280B06D40095AFFB /* DesafioCamp_ODS10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCamp_ODS10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E58D68E280B06D40095AFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E58D690280B06D40095AFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E58D692280B06D40095AFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E58D692280B06D40095AFFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7E58D695280B06D40095AFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E58D697280B06D50095AFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E58D69A280B06D50095AFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +55,7 @@
 		7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
 		7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
+		C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.release.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3160843BB132D2C6722C15A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E2D15F8280B51B90060FECD /* TableList */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D15FA280B52D00060FECD /* TableViewList.swift */,
+				7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */,
+				7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */,
+			);
+			path = TableList;
+			sourceTree = "<group>";
+		};
+		7E2D15F9280B51F30060FECD /* FilterList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FilterList;
+			sourceTree = "<group>";
+		};
 		7E4D390A280B4C9000A7F25B /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,11 +117,10 @@
 		7E4D390C280B4CB000A7F25B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
 				7E58D694280B06D40095AFFB /* Main.storyboard */,
-				7E58D692280B06D40095AFFB /* ViewController.swift */,
-				7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */,
-				7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */,
+				7E58D692280B06D40095AFFB /* HomeViewController.swift */,
+				7E2D15F8280B51B90060FECD /* TableList */,
+				7E2D15F9280B51F30060FECD /* FilterList */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +139,8 @@
 			children = (
 				7E58D68D280B06D40095AFFB /* DesafioCamp_ODS10 */,
 				7E58D68C280B06D40095AFFB /* Products */,
+				998EFDAFCE74C294D5557358 /* Pods */,
+				3160843BB132D2C6722C15A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +163,7 @@
 				7E4D390A280B4C9000A7F25B /* Delegates */,
 				7E58D697280B06D50095AFFB /* Assets.xcassets */,
 				7E58D69C280B06D50095AFFB /* Info.plist */,
+				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
 			);
 			path = DesafioCamp_ODS10;
 			sourceTree = "<group>";
@@ -146,6 +180,15 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		998EFDAFCE74C294D5557358 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */,
+				C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E58D69F280B06D50095AFFB /* Build configuration list for PBXNativeTarget "DesafioCamp_ODS10" */;
 			buildPhases = (
+				045C9293C2DE378A32C920D3 /* [CP] Check Pods Manifest.lock */,
 				7E58D687280B06D40095AFFB /* Sources */,
 				7E58D688280B06D40095AFFB /* Frameworks */,
 				7E58D689280B06D40095AFFB /* Resources */,
@@ -217,6 +261,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		045C9293C2DE378A32C920D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioCamp_ODS10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E58D687280B06D40095AFFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,13 +293,14 @@
 			files = (
 				7E4D391B280B4F1200A7F25B /* TableCellComposition.swift in Sources */,
 				7E4D3915280B4E2D00A7F25B /* UserDocumentsPresenter.swift in Sources */,
-				7E58D693280B06D40095AFFB /* ViewController.swift in Sources */,
+				7E58D693280B06D40095AFFB /* HomeViewController.swift in Sources */,
 				7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */,
 				7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */,
 				7E4D3917280B4E4C00A7F25B /* DocumentsDonePresenter.swift in Sources */,
 				7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */,
 				7E4D3919280B4ECC00A7F25B /* HomeTableView.swift in Sources */,
 				7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */,
+				7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
 				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
 			);
@@ -309,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -364,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -376,6 +446,7 @@
 		};
 		7E58D6A0280B06D50095AFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -405,6 +476,7 @@
 		};
 		7E58D6A1280B06D50095AFFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  TableViewList.swift
 //  DesafioCamp_ODS10
 //
 //  Created by Rita Lisboa on 16/04/22.
@@ -7,11 +7,8 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class TableViewList: UITableView {
 
-    @IBOutlet weak var gratuidadeButton: UIImageView!
-    @IBOutlet weak var ilhasButton: UIImageView!
-    
     private lazy var homeTableView: UITableView = {
         let homeTableView = UITableView()
         homeTableView.register(HomeTableView.self,
@@ -19,18 +16,12 @@ class HomeViewController: UIViewController {
         homeTableView.translatesAutoresizingMaskIntoConstraints = false
         return homeTableView
     }()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
 
 }
 
 // MARK: - extensions
 
-extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
+extension TableViewList: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 27
     }
