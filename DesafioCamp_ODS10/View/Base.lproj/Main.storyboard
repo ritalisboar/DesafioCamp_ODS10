@@ -285,7 +285,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAL-kt-3eL" userLabel="DocumentList">
                                         <rect key="frame" x="0.0" y="587" width="414" height="309"/>
                                         <subviews>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4qP-yn-ggN">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TableViewList" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4qP-yn-ggN" customClass="TableViewList" customModule="DesafioCamp_ODS10" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="990"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -331,6 +331,7 @@
                     <connections>
                         <outlet property="gratuidadeButton" destination="ZMr-CO-pTE" id="eQs-1z-Soh"/>
                         <outlet property="ilhasButton" destination="JZZ-M4-ery" id="sF5-he-6PQ"/>
+                        <outlet property="tableViewList" destination="4qP-yn-ggN" id="oMg-rW-W7c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YrM-J4-JWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
