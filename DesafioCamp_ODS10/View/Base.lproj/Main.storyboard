@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VKY-Ud-bv7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VKY-Ud-bv7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -32,7 +31,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="UsG-cc-Ceh">
-                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UsG-cc-Ceh" id="qqf-3g-Lui">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -85,16 +84,16 @@
                                                 <rect key="frame" x="334" y="45" width="60" height="60"/>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="IJq-Vy-eJR" userLabel="OlaStack">
-                                                <rect key="frame" x="20" y="95" width="175" height="25.5"/>
+                                                <rect key="frame" x="20" y="95" width="166.5" height="23.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1R-z7-XDP">
-                                                        <rect key="frame" x="0.0" y="0.0" width="44" height="25.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="42" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Bold" family="Mulish" pointSize="20"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="João Nery 👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-BH-jXl">
-                                                        <rect key="frame" x="48" y="0.0" width="127" height="25.5"/>
+                                                        <rect key="frame" x="46" y="0.0" width="120.5" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="20"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
@@ -102,19 +101,19 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="P0v-8o-72r" userLabel="EntendaStack">
-                                                <rect key="frame" x="20" y="140" width="374" height="82"/>
+                                                <rect key="frame" x="20" y="140" width="374" height="76"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Tyj-Th-a8Q" userLabel="HeaderStack">
-                                                        <rect key="frame" x="0.0" y="0.0" width="334.5" height="38"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="311.5" height="35"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Entenda como " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kiv-bo-f5N">
-                                                                <rect key="frame" x="0.0" y="0.0" width="208" height="38"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="204" height="35"/>
                                                                 <fontDescription key="fontDescription" name="Mulish-Medium" family="Mulish" pointSize="30"/>
                                                                 <color key="textColor" name="DarkBlue"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="retificar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaQ-jr-iOk">
-                                                                <rect key="frame" x="216" y="0.0" width="118.5" height="38"/>
+                                                                <rect key="frame" x="212" y="0.0" width="99.5" height="35"/>
                                                                 <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="30"/>
                                                                 <color key="textColor" name="DarkBlue"/>
                                                                 <nil key="highlightedColor"/>
@@ -122,7 +121,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" nome e gênero " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZu-YS-1vo">
-                                                        <rect key="frame" x="0.0" y="44" width="235" height="38"/>
+                                                        <rect key="frame" x="0.0" y="41" width="218" height="35"/>
                                                         <color key="backgroundColor" name="LightPink"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="30"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -131,22 +130,22 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QdY-Kt-7m5" userLabel="OrientacaoStack">
-                                                <rect key="frame" x="22" y="252" width="272" height="23"/>
+                                                <rect key="frame" x="22" y="246" width="256.5" height="21"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3z-lP-THd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="14" height="23"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="14" height="21"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Medium" family="Mulish" pointSize="18"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="passo a passo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDw-t1-PLm">
-                                                        <rect key="frame" x="22" y="0.0" width="127.5" height="23"/>
+                                                        <rect key="frame" x="22" y="0.0" width="117.5" height="21"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="18"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="da retificação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uc-VU-7Pl">
-                                                        <rect key="frame" x="157.5" y="0.0" width="114.5" height="23"/>
+                                                        <rect key="frame" x="147.5" y="0.0" width="109" height="21"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Medium" family="Mulish" pointSize="18"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
@@ -154,7 +153,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yEy-6e-C7F" userLabel="ImageButton">
-                                                <rect key="frame" x="16" y="285" width="382" height="163"/>
+                                                <rect key="frame" x="16" y="277" width="382" height="163"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageButton" translatesAutoresizingMaskIntoConstraints="NO" id="JZZ-M4-ery">
                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="163"/>
@@ -185,16 +184,16 @@
                                         <rect key="frame" x="0.0" y="453" width="414" height="40"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="P1w-Qt-MIK">
-                                                <rect key="frame" x="23" y="30" width="208.5" height="25.5"/>
+                                                <rect key="frame" x="23" y="30" width="195" height="23.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lista de " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzj-Bh-DHw" userLabel="Lista de ">
-                                                        <rect key="frame" x="0.0" y="0.0" width="81" height="25.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="76.5" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Bold" family="Mulish" pointSize="20"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Documentos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSb-x2-G4q" userLabel="Documentos">
-                                                        <rect key="frame" x="85" y="0.0" width="123.5" height="25.5"/>
+                                                        <rect key="frame" x="80.5" y="0.0" width="114.5" height="23.5"/>
                                                         <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="20"/>
                                                         <color key="textColor" name="DarkBlue"/>
                                                         <nil key="highlightedColor"/>
@@ -213,9 +212,12 @@
                                         <rect key="frame" x="0.0" y="510" width="414" height="60"/>
                                         <subviews>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rBs-6g-X8T">
-                                                <rect key="frame" x="0.0" y="0.0" width="406" height="60"/>
+                                                <rect key="frame" x="-185" y="0.0" width="610" height="60"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" name="LightPink"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="610" id="WOR-jP-Dxg"/>
+                                                </constraints>
                                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rRS-VT-4fy">
                                                     <size key="itemSize" width="128" height="49"/>
                                                     <size key="estimatedItemSize" width="128" height="128"/>
@@ -224,7 +226,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FilterCell" id="zIf-SF-Fa3">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zIf-SF-Fa3">
                                                         <rect key="frame" x="0.0" y="5.5" width="128" height="49"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8Yd-cO-k9g">
@@ -233,16 +235,51 @@
                                                         </collectionViewCellContentView>
                                                         <color key="backgroundColor" name="LightPink"/>
                                                     </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="I94-gA-s9e">
+                                                        <rect key="frame" x="138" y="5.5" width="128" height="49"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cb2-KC-Q81">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="49"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <color key="backgroundColor" name="LightPink"/>
+                                                        </collectionViewCellContentView>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="fIb-tG-Luu">
+                                                        <rect key="frame" x="276" y="5.5" width="128" height="49"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8fB-SH-oPx">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="49"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <color key="backgroundColor" name="LightPink"/>
+                                                        </collectionViewCellContentView>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="jHX-B3-3fJ">
+                                                        <rect key="frame" x="414" y="5.5" width="128" height="49"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="tUB-4I-pq2">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="49"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                        </collectionViewCellContentView>
+                                                        <color key="backgroundColor" name="LightPink"/>
+                                                    </collectionViewCell>
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="hTY-t6-sqt">
+                                                        <rect key="frame" x="552" y="5.5" width="128" height="49"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="6Kh-oe-9Ng">
+                                                            <rect key="frame" x="0.0" y="0.0" width="128" height="49"/>
+                                                            <autoresizingMask key="autoresizingMask"/>
+                                                            <color key="backgroundColor" name="LightPink"/>
+                                                        </collectionViewCellContentView>
+                                                    </collectionViewCell>
                                                 </cells>
                                             </collectionView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="G71-IM-Ybe"/>
-                                            <constraint firstItem="rBs-6g-X8T" firstAttribute="top" secondItem="A2t-6N-dvS" secondAttribute="top" id="jE9-Ia-Qd6"/>
-                                            <constraint firstItem="rBs-6g-X8T" firstAttribute="trailing" secondItem="A2t-6N-dvS" secondAttribute="trailingMargin" id="kfn-UP-7zP"/>
-                                            <constraint firstItem="rBs-6g-X8T" firstAttribute="leading" secondItem="A2t-6N-dvS" secondAttribute="leading" id="tKM-xB-Ktq"/>
-                                            <constraint firstItem="rBs-6g-X8T" firstAttribute="centerY" secondItem="A2t-6N-dvS" secondAttribute="centerY" id="yGb-v2-bhq"/>
+                                            <constraint firstAttribute="bottom" secondItem="rBs-6g-X8T" secondAttribute="bottom" id="ZdS-mO-VbV"/>
+                                            <constraint firstAttribute="trailing" secondItem="rBs-6g-X8T" secondAttribute="trailing" constant="-11" id="aF5-gw-ski"/>
+                                            <constraint firstItem="rBs-6g-X8T" firstAttribute="top" secondItem="A2t-6N-dvS" secondAttribute="top" id="vDq-o5-ElG"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAL-kt-3eL" userLabel="DocumentList">
@@ -253,8 +290,8 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableListCell" id="3cz-OS-BcH">
-                                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="3cz-OS-BcH">
+                                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3cz-OS-BcH" id="TB4-JX-s3H">
                                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -292,7 +329,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="FilterList" destination="rBs-6g-X8T" id="Hi5-dg-DZ4"/>
                         <outlet property="gratuidadeButton" destination="ZMr-CO-pTE" id="eQs-1z-Soh"/>
                         <outlet property="ilhasButton" destination="JZZ-M4-ery" id="sF5-he-6PQ"/>
                         <outlet property="tableViewList" destination="4qP-yn-ggN" id="oMg-rW-W7c"/>
@@ -303,14 +339,14 @@
                     <rect key="frame" x="0.0" y="0.0" width="175" height="25.5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-zr-pG2">
-                            <rect key="frame" x="0.0" y="0.0" width="44" height="25.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Olá, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pv-zr-pG2">
+                            <rect key="frame" x="0.0" y="0.0" width="50.5" height="23.5"/>
                             <fontDescription key="fontDescription" name="Mulish-Bold" family="Mulish" pointSize="20"/>
                             <color key="textColor" name="DarkBlue"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="João Nery 👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-2N-rkJ">
-                            <rect key="frame" x="48" y="0.0" width="127" height="25.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="João Nery 👋" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-2N-rkJ">
+                            <rect key="frame" x="54.5" y="0.0" width="120.5" height="23.5"/>
                             <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="20"/>
                             <color key="textColor" name="DarkBlue"/>
                             <nil key="highlightedColor"/>
