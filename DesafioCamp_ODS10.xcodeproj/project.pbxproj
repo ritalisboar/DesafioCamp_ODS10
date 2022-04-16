@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,12 @@
 		7E58D696280B06D40095AFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D694280B06D40095AFFB /* Main.storyboard */; };
 		7E58D698280B06D50095AFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D697280B06D50095AFFB /* Assets.xcassets */; };
 		7E58D69B280B06D50095AFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */; };
+		7E58D6A4280B0BCD0095AFFB /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A3280B0BCD0095AFFB /* Mulish-Bold.ttf */; };
+		7E58D6A6280B0BD60095AFFB /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A5280B0BD60095AFFB /* Mulish-Medium.ttf */; };
+		7E58D6A8280B0BDE0095AFFB /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A7280B0BDE0095AFFB /* Mulish-Regular.ttf */; };
+		7E58D6AA280B0BEB0095AFFB /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */; };
+		7E58D6AC280B13650095AFFB /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */; };
+		7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		7E58D697280B06D50095AFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E58D69A280B06D50095AFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E58D69C280B06D50095AFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E58D6A3280B0BCD0095AFFB /* Mulish-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		7E58D6A5280B0BD60095AFFB /* Mulish-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Medium.ttf"; sourceTree = "<group>"; };
+		7E58D6A7280B0BDE0095AFFB /* Mulish-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Regular.ttf"; sourceTree = "<group>"; };
+		7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
+		7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +73,24 @@
 				7E58D692280B06D40095AFFB /* ViewController.swift */,
 				7E58D694280B06D40095AFFB /* Main.storyboard */,
 				7E58D697280B06D50095AFFB /* Assets.xcassets */,
-				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
 				7E58D69C280B06D50095AFFB /* Info.plist */,
+				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
+				7E58D6A2280B0AE00095AFFB /* Fonts */,
+				7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */,
 			);
 			path = DesafioCamp_ODS10;
+			sourceTree = "<group>";
+		};
+		7E58D6A2280B0AE00095AFFB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E58D6A3280B0BCD0095AFFB /* Mulish-Bold.ttf */,
+				7E58D6A5280B0BD60095AFFB /* Mulish-Medium.ttf */,
+				7E58D6A7280B0BDE0095AFFB /* Mulish-Regular.ttf */,
+				7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */,
+				7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +129,7 @@
 				};
 			};
 			buildConfigurationList = 7E58D686280B06D30095AFFB /* Build configuration list for PBXProject "DesafioCamp_ODS10" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -126,8 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E58D69B280B06D50095AFFB /* LaunchScreen.storyboard in Resources */,
+				7E58D6AA280B0BEB0095AFFB /* Mulish-Black.ttf in Resources */,
 				7E58D698280B06D50095AFFB /* Assets.xcassets in Resources */,
+				7E58D6A6280B0BD60095AFFB /* Mulish-Medium.ttf in Resources */,
+				7E58D6A8280B0BDE0095AFFB /* Mulish-Regular.ttf in Resources */,
+				7E58D6AC280B13650095AFFB /* Mulish-SemiBold.ttf in Resources */,
 				7E58D696280B06D40095AFFB /* Main.storyboard in Resources */,
+				7E58D6A4280B0BCD0095AFFB /* Mulish-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +172,7 @@
 				7E58D693280B06D40095AFFB /* ViewController.swift in Sources */,
 				7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
+				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
@@ -315,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
