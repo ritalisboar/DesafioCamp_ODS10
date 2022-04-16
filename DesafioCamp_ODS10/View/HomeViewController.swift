@@ -11,7 +11,8 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var gratuidadeButton: UIImageView!
     @IBOutlet weak var ilhasButton: UIImageView!
-    
+    @IBOutlet weak var FilterList: UICollectionView!
+    @IBOutlet weak var tableViewList: UITableView!
     
   
     override func viewDidLoad() {
@@ -19,7 +20,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var tableViewList: TableViewList!
+   
     
 }
 

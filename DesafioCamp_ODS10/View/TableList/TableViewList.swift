@@ -9,6 +9,11 @@ import UIKit
 
 class TableViewList: UITableView {
 
+    var documents: [DocumentsParams] = [
+    ]
+    
+    
+    
     private lazy var homeTableView: UITableView = {
         let homeTableView = UITableView()
         homeTableView.register(HomeTableView.self,
@@ -23,7 +28,7 @@ class TableViewList: UITableView {
 
 extension TableViewList: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 27
+        return documents.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
