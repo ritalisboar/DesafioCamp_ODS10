@@ -28,6 +28,7 @@
 		7E58D6AA280B0BEB0095AFFB /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */; };
 		7E58D6AC280B13650095AFFB /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */; };
 		7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */; };
+		A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69874AB280BB321007F37BA /* ModalHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
 		7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
+		A69874AB280BB321007F37BA /* ModalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeViewController.swift; sourceTree = "<group>"; };
 		C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.release.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				7E58D694280B06D40095AFFB /* Main.storyboard */,
+				A69874AB280BB321007F37BA /* ModalHomeViewController.swift */,
 				7E58D692280B06D40095AFFB /* HomeViewController.swift */,
 				7E2D15F8280B51B90060FECD /* TableList */,
 				7E2D15F9280B51F30060FECD /* FilterList */,
@@ -302,6 +305,7 @@
 				7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */,
 				7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
+				A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */,
 				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
