@@ -11,6 +11,8 @@
 		<string>Mulish-Regular.ttf</string>
 		<string>Mulish-Black.ttf</string>
 		<string>Mulish-SemiBold.ttf</string>
+		<string>DMSerifDisplay-Italic.ttf</string>
+		<string>DMSerifDisplay-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
