@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */; };
 		7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FA280B52D00060FECD /* TableViewList.swift */; };
+		7E2D15FD280B5DDD0060FECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FC280B5DDD0060FECD /* Constants.swift */; };
 		7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */; };
 		7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */; };
 		7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */; };
@@ -35,6 +36,7 @@
 		2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.debug.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.debug.xcconfig"; sourceTree = "<group>"; };
 		797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioCamp_ODS10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2D15FA280B52D00060FECD /* TableViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewList.swift; sourceTree = "<group>"; };
+		7E2D15FC280B5DDD0060FECD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				7E58D697280B06D50095AFFB /* Assets.xcassets */,
 				7E58D69C280B06D50095AFFB /* Info.plist */,
 				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
+				7E2D15FC280B5DDD0060FECD /* Constants.swift */,
 			);
 			path = DesafioCamp_ODS10;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */,
 				7E4D3917280B4E4C00A7F25B /* DocumentsDonePresenter.swift in Sources */,
 				7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */,
+				7E2D15FD280B5DDD0060FECD /* Constants.swift in Sources */,
 				7E4D3919280B4ECC00A7F25B /* HomeTableView.swift in Sources */,
 				7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */,
 				7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */,
