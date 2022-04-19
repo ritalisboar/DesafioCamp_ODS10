@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kap-Vo-gnP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kap-Vo-gnP">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -57,13 +56,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Documento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13J-Mu-B93">
-                                        <rect key="frame" x="150.5" y="50" width="113.5" height="25.5"/>
+                                        <rect key="frame" x="155" y="50" width="104.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="Mulish-Black" family="Mulish" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gIf-00-fuL" userLabel="Preço">
-                                        <rect key="frame" x="20" y="85.5" width="159" height="50"/>
+                                        <rect key="frame" x="20" y="83.5" width="159" height="50"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mWN-Xp-krb">
                                                 <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
@@ -100,7 +99,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="q3q-jb-5ug" userLabel="Prazo">
-                                        <rect key="frame" x="235" y="85.5" width="159" height="50"/>
+                                        <rect key="frame" x="235" y="83.5" width="159" height="50"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GFF-cf-0fT">
                                                 <rect key="frame" x="0.0" y="0.5" width="50" height="49"/>
@@ -137,7 +136,7 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SaibaMais" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqb-SZ-gGg">
-                                        <rect key="frame" x="40" y="259" width="69.5" height="53"/>
+                                        <rect key="frame" x="40" y="259" width="65.5" height="53"/>
                                         <fontDescription key="fontDescription" name="Mulish-SemiBold" family="Mulish" pointSize="14"/>
                                         <color key="textColor" systemColor="linkColor"/>
                                         <nil key="highlightedColor"/>
@@ -147,7 +146,7 @@
                                         <color key="backgroundColor" red="0.81200000000000006" green="0.79200000000000004" blue="0.89400000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estado do documento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQ0-49-otR">
-                                        <rect key="frame" x="20" y="332" width="125" height="22"/>
+                                        <rect key="frame" x="20" y="332" width="119.5" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="fU3-jO-VzY"/>
                                         </constraints>
@@ -526,7 +525,7 @@
                                                 </constraints>
                                                 <prototypes>
                                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="132" id="3cz-OS-BcH">
-                                                        <rect key="frame" x="0.0" y="44.5" width="415" height="132"/>
+                                                        <rect key="frame" x="0.0" y="28" width="415" height="132"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3cz-OS-BcH" id="TB4-JX-s3H">
                                                             <rect key="frame" x="0.0" y="0.0" width="415" height="132"/>
@@ -801,10 +800,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -820,14 +815,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -892,16 +879,16 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nft-gp-wjm" userLabel="NomeIlhas">
-                                <rect key="frame" x="0.0" y="135" width="414" height="115"/>
+                                <rect key="frame" x="0.0" y="135" width="414" height="114"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem vindes ao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ci9-sb-NRX">
-                                        <rect key="frame" x="145.5" y="15" width="123" height="28"/>
+                                        <rect key="frame" x="145.5" y="15" width="123" height="27.5"/>
                                         <fontDescription key="fontDescription" name="DMSerifDisplay-Italic" family="DM Serif Display" pointSize="20"/>
                                         <color key="textColor" name="DarkBlue"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oceanótico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C53-i1-Zui">
-                                        <rect key="frame" x="117.5" y="45" width="179" height="50"/>
+                                        <rect key="frame" x="117.5" y="44.5" width="179" height="49.5"/>
                                         <fontDescription key="fontDescription" name="DMSerifDisplay-Regular" family="DM Serif Display" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -916,7 +903,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3m-sD-Acz" userLabel="DescricaoIlhas">
-                                <rect key="frame" x="0.0" y="260" width="414" height="75"/>
+                                <rect key="frame" x="0.0" y="259" width="414" height="75"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arraste para o lado ou veja a lista completa de ilhas. Selecione uma das ilhas e inicie o processo." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4c-Zr-IwW">
                                         <rect key="frame" x="20" y="10" width="374" height="35.5"/>
@@ -933,7 +920,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgS-jD-1Zb" userLabel="Carrossel">
-                                <rect key="frame" x="0.0" y="362" width="414" height="400"/>
+                                <rect key="frame" x="0.0" y="361" width="414" height="400"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TBp-Ph-Fcp">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
@@ -950,7 +937,7 @@
                                         </constraints>
                                     </imageView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="Fg2-EV-dtt">
-                                        <rect key="frame" x="112" y="342" width="190" height="26"/>
+                                        <rect key="frame" x="127" y="340.5" width="160" height="27.5"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="currentPageIndicatorTintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1008,7 +995,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IC1-KY-bA5" userLabel="Progresso">
-                                <rect key="frame" x="0.0" y="762" width="414" height="28"/>
+                                <rect key="frame" x="0.0" y="761" width="414" height="29"/>
                                 <subviews>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fd7-Wn-pPb">
                                         <rect key="frame" x="20" y="0.0" width="374" height="4"/>
@@ -1121,7 +1108,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMT-VR-QLc" userLabel="NomeIlhas">
-                                <rect key="frame" x="0.0" y="135" width="414" height="114.5"/>
+                                <rect key="frame" x="0.0" y="135" width="414" height="114"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bem vindes ao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D25-ed-snK">
                                         <rect key="frame" x="145.5" y="15" width="123" height="27.5"/>
@@ -1130,7 +1117,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ilha Grátis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGH-yg-hw4">
-                                        <rect key="frame" x="125" y="45" width="176" height="50"/>
+                                        <rect key="frame" x="125" y="45" width="176" height="49.5"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="176" id="tEp-x5-ivB"/>
                                         </constraints>
@@ -1148,7 +1135,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-dH-kmH" userLabel="DescricaoIlhas">
-                                <rect key="frame" x="0.0" y="259.5" width="414" height="92.5"/>
+                                <rect key="frame" x="0.0" y="259" width="414" height="92.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Essa é a única ilha não obrigatória. Nela você segue o passo a passo para pedir gratuidade do processo pelo cartório." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXV-6V-D0k">
                                         <rect key="frame" x="20" y="10" width="374" height="53"/>
@@ -1165,7 +1152,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HWd-sA-C0i" userLabel="Carrossel">
-                                <rect key="frame" x="0.0" y="379" width="414" height="400"/>
+                                <rect key="frame" x="0.0" y="378.5" width="414" height="400"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilhaImage" translatesAutoresizingMaskIntoConstraints="NO" id="sA0-Kj-NDa">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
@@ -1178,7 +1165,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="FnZ-61-kDq">
-                                        <rect key="frame" x="112" y="342" width="190" height="26"/>
+                                        <rect key="frame" x="127" y="340.5" width="160" height="27.5"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="currentPageIndicatorTintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1199,7 +1186,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXY-YY-pHc" userLabel="Progresso">
-                                <rect key="frame" x="0.0" y="779" width="414" height="11"/>
+                                <rect key="frame" x="0.0" y="778.5" width="414" height="11.5"/>
                                 <subviews>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pnB-AK-rG5">
                                         <rect key="frame" x="20" y="0.0" width="374" height="4"/>
@@ -1377,13 +1364,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="entrarButton" translatesAutoresizingMaskIntoConstraints="NO" id="Xqe-gu-kuD">
-                                        <rect key="frame" x="94" y="243" width="226" height="62"/>
+                                        <rect key="frame" x="94" y="241.5" width="226" height="62"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="62" id="f0E-lj-nfR"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilhaPlay" translatesAutoresizingMaskIntoConstraints="NO" id="Hb7-ha-G4n">
-                                        <rect key="frame" x="121" y="249" width="50" height="50"/>
+                                        <rect key="frame" x="121" y="247.5" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="NkV-XT-PWt"/>
                                             <constraint firstAttribute="height" constant="50" id="ydi-d2-98P"/>
@@ -1414,7 +1401,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="FXj-pV-Uk2">
-                                        <rect key="frame" x="112" y="342" width="190.5" height="26"/>
+                                        <rect key="frame" x="127" y="340.5" width="160" height="27.5"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="currentPageIndicatorTintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1620,13 +1607,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="entrarButton" translatesAutoresizingMaskIntoConstraints="NO" id="sGw-ha-zcf">
-                                        <rect key="frame" x="94" y="243" width="226" height="62"/>
+                                        <rect key="frame" x="94" y="241.5" width="226" height="62"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="62" id="eSF-2J-OXp"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilhaPlay" translatesAutoresizingMaskIntoConstraints="NO" id="h7f-Qp-ag6">
-                                        <rect key="frame" x="121" y="249" width="50" height="50"/>
+                                        <rect key="frame" x="121" y="247.5" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="F7g-i8-SrH"/>
                                             <constraint firstAttribute="width" constant="50" id="mFW-qR-mwZ"/>
@@ -1657,7 +1644,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="thA-XU-nK4">
-                                        <rect key="frame" x="112" y="342" width="190.5" height="26"/>
+                                        <rect key="frame" x="127" y="340.5" width="160" height="27.5"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="currentPageIndicatorTintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1863,13 +1850,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilhaBlock" translatesAutoresizingMaskIntoConstraints="NO" id="IPG-UP-BM4">
-                                        <rect key="frame" x="94" y="243" width="226" height="62"/>
+                                        <rect key="frame" x="94" y="241.5" width="226" height="62"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="62" id="2kr-G9-wpL"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="block" translatesAutoresizingMaskIntoConstraints="NO" id="Kv8-uf-9cQ">
-                                        <rect key="frame" x="121" y="249" width="50" height="50"/>
+                                        <rect key="frame" x="121" y="247.5" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Cvq-gt-oFH"/>
                                             <constraint firstAttribute="width" constant="50" id="m4l-4d-OBc"/>
@@ -1900,7 +1887,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="haT-9w-GAN">
-                                        <rect key="frame" x="112" y="342" width="190.5" height="26"/>
+                                        <rect key="frame" x="127" y="340.5" width="160" height="27.5"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="pageIndicatorTintColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="currentPageIndicatorTintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2137,10 +2124,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2156,14 +2139,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2305,10 +2280,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2324,14 +2295,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2473,10 +2436,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2492,14 +2451,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2642,10 +2593,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2661,14 +2608,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2811,10 +2750,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2830,14 +2765,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2980,10 +2907,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Baixar Modelo" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -2999,14 +2922,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Atualizar Estado" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3147,10 +3062,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pendente" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3166,14 +3077,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Solicitado" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3189,14 +3092,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Recebido" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3337,10 +3232,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Sair" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3481,13 +3372,6 @@
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pendente" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3503,14 +3387,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Solicitado" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3526,14 +3402,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Recebido" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3673,14 +3541,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pendente" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3696,14 +3556,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Solicitado" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3719,15 +3571,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Recebido" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="backgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3870,14 +3713,6 @@
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Pendente" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3893,14 +3728,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Solicitado" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
@@ -3916,15 +3743,6 @@
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Recebido" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30">
-                                                        <color key="backgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </backgroundConfiguration>
-                                                    <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="6"/>
