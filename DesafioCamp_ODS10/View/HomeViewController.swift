@@ -8,20 +8,12 @@
 import UIKit
 
 class HomeViewController: UIViewController, UIScrollViewDelegate {
+    var documents = [DocumentsParams]()
 
     @IBOutlet weak var gratuidadeButton: UIImageView!
     @IBOutlet weak var ilhasButton: UIImageView!
     @IBOutlet weak var FilterList: UICollectionView!
     @IBOutlet weak var tableViewList: UITableView!
-    
-    var documents: [DocumentsParams] = [
-    ]
-  
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        homeTableView.delegate = self
-        homeTableView.dataSource = self
-    }
     
     private lazy var homeTableView: UITableView = {
         let homeTableView = UITableView()
@@ -38,9 +30,34 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         return 20
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        homeTableView.delegate = self
+        homeTableView.dataSource = self
+        
+        let urlString = "https://ods10-backend-develop.herokuapp.com/api/documents"
+        if let url = URL(string: urlString) {
+            if let data = try? Data(contentsOf: url) {
+                parse(json: data)
+            }
+        }
+    }
+    
+    func parse(json: Data) {
+        let decoder = JSONDecoder()
+        
+        if let jsonDocuments = try? decoder.decode(DocumentsList.self, from: json) {
+            documents = jsonDocuments.documentsList
+            homeTableView.reloadData()
+            
+        }
+    }
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = homeTableView.dequeueReusableCell(withIdentifier: K.tableListCell, for: indexPath)
-//        cell.textLabel?.text
+        let document = documents[indexPath.row]
+        cell.textLabel?.text = document.name
+        cell.detailTextLabel?.text = document.shortDescription
         return cell
     }
     
