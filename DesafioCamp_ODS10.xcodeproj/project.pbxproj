@@ -11,6 +11,10 @@
 		7E1084A32811AD34006B3C9E /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */; };
 		7E1084A52811AD42006B3C9E /* UserDocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */; };
 		7E1084A72811AD4F006B3C9E /* DocumentsDonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */; };
+		7E1084A92811C512006B3C9E /* IslandParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A82811C511006B3C9E /* IslandParams.swift */; };
+		7E1084AB2811C53A006B3C9E /* IslandParamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */; };
+		7E1084AD2811CC4E006B3C9E /* UserIslandParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */; };
+		7E1084AF2811CC67006B3C9E /* UserIslandParamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */; };
 		7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FA280B52D00060FECD /* TableViewList.swift */; };
 		7E2D15FD280B5DDD0060FECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FC280B5DDD0060FECD /* Constants.swift */; };
 		7E2D1602280B99AA0060FECD /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D1600280B99AA0060FECD /* DMSerifDisplay-Regular.ttf */; };
@@ -41,6 +45,10 @@
 		7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
 		7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsPresenter.swift; sourceTree = "<group>"; };
 		7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDonePresenter.swift; sourceTree = "<group>"; };
+		7E1084A82811C511006B3C9E /* IslandParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandParams.swift; sourceTree = "<group>"; };
+		7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandParamsPresenter.swift; sourceTree = "<group>"; };
+		7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIslandParams.swift; sourceTree = "<group>"; };
+		7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIslandParamsPresenter.swift; sourceTree = "<group>"; };
 		7E2D15FA280B52D00060FECD /* TableViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewList.swift; sourceTree = "<group>"; };
 		7E2D15FC280B5DDD0060FECD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7E2D1600280B99AA0060FECD /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
@@ -94,6 +102,8 @@
 				7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */,
 				7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */,
 				7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */,
+				7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */,
+				7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -142,6 +152,8 @@
 			children = (
 				7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */,
 				7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */,
+				7E1084A82811C511006B3C9E /* IslandParams.swift */,
+				7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1084AB2811C53A006B3C9E /* IslandParamsPresenter.swift in Sources */,
+				7E1084AF2811CC67006B3C9E /* UserIslandParamsPresenter.swift in Sources */,
 				7E4D391B280B4F1200A7F25B /* TableCellComposition.swift in Sources */,
 				7E58D693280B06D40095AFFB /* HomeViewController.swift in Sources */,
 				7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */,
@@ -320,7 +334,9 @@
 				7E1084A32811AD34006B3C9E /* DocumentsPresenter.swift in Sources */,
 				7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */,
 				7E1084A52811AD42006B3C9E /* UserDocumentsPresenter.swift in Sources */,
+				7E1084A92811C512006B3C9E /* IslandParams.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
+				7E1084AD2811CC4E006B3C9E /* UserIslandParams.swift in Sources */,
 				A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */,
 				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
 			);

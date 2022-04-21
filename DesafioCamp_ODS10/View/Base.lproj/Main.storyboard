@@ -1808,39 +1808,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3n5-v3-AcG" userLabel="TopButtons">
-                                        <rect key="frame" x="20" y="-13" width="414" height="105"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLS-8r-ksI">
-                                                <rect key="frame" x="20" y="40" width="60" height="60"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="backButton"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqs-fZ-Z5t">
-                                                <rect key="frame" x="334" y="45" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="b0I-KN-c4b"/>
-                                                    <constraint firstAttribute="width" constant="60" id="vc3-li-dRF"/>
-                                                </constraints>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="FAQImage"/>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="105" id="C5H-7Q-LSE"/>
-                                            <constraint firstItem="Oqs-fZ-Z5t" firstAttribute="top" secondItem="3n5-v3-AcG" secondAttribute="top" constant="45" id="QH7-Zg-nW2"/>
-                                            <constraint firstItem="dLS-8r-ksI" firstAttribute="leading" secondItem="3n5-v3-AcG" secondAttribute="leading" constant="20" id="VYJ-F4-LCf"/>
-                                            <constraint firstAttribute="trailing" secondItem="Oqs-fZ-Z5t" secondAttribute="trailing" constant="20" id="l7G-3T-ULW"/>
-                                            <constraint firstItem="dLS-8r-ksI" firstAttribute="top" secondItem="3n5-v3-AcG" secondAttribute="top" constant="40" id="spU-1p-sKx"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="3n5-v3-AcG" firstAttribute="trailing" secondItem="bgA-dH-kmH" secondAttribute="trailing" constant="20" id="56G-Vc-3Zd"/>
-                                    <constraint firstItem="3n5-v3-AcG" firstAttribute="leading" secondItem="bgA-dH-kmH" secondAttribute="leading" constant="20" id="6ge-OR-DoT"/>
                                     <constraint firstItem="cXV-6V-D0k" firstAttribute="leading" secondItem="bgA-dH-kmH" secondAttribute="leading" constant="20" id="759-79-hM2"/>
                                     <constraint firstItem="cXV-6V-D0k" firstAttribute="top" secondItem="bgA-dH-kmH" secondAttribute="top" constant="-19" id="JbJ-Gg-fST"/>
-                                    <constraint firstItem="3n5-v3-AcG" firstAttribute="top" secondItem="bgA-dH-kmH" secondAttribute="top" constant="-13" id="Utp-X7-nD9"/>
                                     <constraint firstItem="cXV-6V-D0k" firstAttribute="centerX" secondItem="bgA-dH-kmH" secondAttribute="centerX" id="cdB-jc-qcB"/>
                                     <constraint firstAttribute="height" constant="92.5" id="mRp-dz-eJM"/>
                                 </constraints>
@@ -1860,14 +1831,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1MG-1R-6wa">
                                         <rect key="frame" x="81" y="252" width="252" height="62"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJQ-a8-hSP">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJQ-a8-hSP">
                                                 <rect key="frame" x="1" y="1" width="250" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="250" id="WhO-Ma-ZZg"/>
                                                     <constraint firstAttribute="height" constant="60" id="yka-r2-KR9"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entrar na Ilha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRc-kL-mgV">
                                                 <rect key="frame" x="72" y="10" width="78.5" height="15.5"/>
@@ -2180,14 +2150,13 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVq-c6-0e4">
                                         <rect key="frame" x="86.5" y="252" width="241" height="62"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTc-6i-1Zp">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTc-6i-1Zp">
                                                 <rect key="frame" x="0.5" y="1" width="240" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="CCK-Wi-s1m"/>
                                                     <constraint firstAttribute="width" constant="240" id="tgY-5p-bRX"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
                                                     <segue destination="Lvh-dr-GON" kind="show" id="zKX-tT-d12"/>
                                                 </connections>
@@ -2497,14 +2466,13 @@
                                                     <constraint firstAttribute="width" constant="50" id="izv-BC-wBr"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTQ-ud-dyr">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTQ-ud-dyr">
                                                 <rect key="frame" x="2" y="1" width="180" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="GFX-au-wG8"/>
                                                     <constraint firstAttribute="width" constant="180" id="qrZ-Hz-P34"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2740,9 +2708,18 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ilhaImage" translatesAutoresizingMaskIntoConstraints="NO" id="AF1-j1-lmL">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nextBlock" translatesAutoresizingMaskIntoConstraints="NO" id="RtD-Ur-pE8">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZxA-fc-ixZ" userLabel="Gratuidade Button">
                                         <rect key="frame" x="334" y="135" width="60" height="60"/>
-                                    </imageView>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="T9p-ra-ar6"/>
+                                            <constraint firstAttribute="width" constant="60" id="r26-mw-ReJ"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="" image="nextButton"/>
+                                        <connections>
+                                            <segue destination="qx8-BJ-UDH" kind="show" id="lz7-gM-VFw"/>
+                                        </connections>
+                                    </button>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="6" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="haT-9w-GAN">
                                         <rect key="frame" x="103.5" y="342" width="207.5" height="26"/>
                                         <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2783,14 +2760,13 @@
                                                     <constraint firstAttribute="height" constant="50" id="Y73-pk-ap6"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVR-MM-d9N">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVR-MM-d9N">
                                                 <rect key="frame" x="-9.5" y="1" width="240" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="60" id="1wa-ra-Hrt"/>
                                                     <constraint firstAttribute="width" constant="240" id="jbl-gN-QZi"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -2823,12 +2799,11 @@
                                     <constraint firstItem="chN-Sb-thj" firstAttribute="leading" secondItem="k86-XU-u2f" secondAttribute="leading" constant="20" id="KB1-9f-erv"/>
                                     <constraint firstItem="haT-9w-GAN" firstAttribute="centerX" secondItem="k86-XU-u2f" secondAttribute="centerX" id="UeD-mA-94Q"/>
                                     <constraint firstAttribute="height" constant="400" id="aff-ym-eEe"/>
-                                    <constraint firstAttribute="trailing" secondItem="RtD-Ur-pE8" secondAttribute="trailing" constant="20" id="axU-Dj-QNe"/>
-                                    <constraint firstAttribute="trailing" secondItem="RtD-Ur-pE8" secondAttribute="trailing" constant="20" id="c1d-q8-8KF"/>
                                     <constraint firstItem="9Gf-g0-Zls" firstAttribute="centerX" secondItem="k86-XU-u2f" secondAttribute="centerX" id="h4M-IH-p6e"/>
-                                    <constraint firstItem="RtD-Ur-pE8" firstAttribute="top" secondItem="k86-XU-u2f" secondAttribute="top" constant="135" id="hrH-46-ack"/>
+                                    <constraint firstItem="ZxA-fc-ixZ" firstAttribute="top" secondItem="k86-XU-u2f" secondAttribute="top" constant="135" id="hC2-NE-iJg"/>
                                     <constraint firstItem="haT-9w-GAN" firstAttribute="top" secondItem="9Gf-g0-Zls" secondAttribute="bottom" constant="28" id="nMi-Nt-3qQ"/>
                                     <constraint firstAttribute="bottom" secondItem="AF1-j1-lmL" secondAttribute="bottom" id="nQd-xl-u7Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZxA-fc-ixZ" secondAttribute="trailing" constant="20" id="rH9-PZ-dG5"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w6J-pz-bBo" userLabel="Progresso">
@@ -3047,6 +3022,9 @@
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="" image="backButton"/>
+                                        <connections>
+                                            <segue destination="zeJ-hf-uSb" kind="show" id="NrI-8C-l6f"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="erB-96-syi">
                                         <rect key="frame" x="83.5" y="252" width="247" height="62"/>
@@ -3070,14 +3048,16 @@
                                                     <constraint firstAttribute="height" constant="50" id="p2y-iF-Hjq"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0A6-V3-NZe">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0A6-V3-NZe">
                                                 <rect key="frame" x="3.5" y="1" width="240" height="60"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="240" id="TAw-5W-dLy"/>
                                                     <constraint firstAttribute="height" constant="60" id="zyr-xu-GMo"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <segue destination="4nY-Sw-KT9" kind="show" id="P9Y-Tm-Jq8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.25377690397350999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4522,7 +4502,7 @@
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="tintColor" name="LightPink"/>
                                     </progressView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuate - cópia 3" translatesAutoresizingMaskIntoConstraints="NO" id="qSa-Mp-kVE">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuate - cópia 3" translatesAutoresizingMaskIntoConstraints="NO" id="qSa-Mp-kVE">
                                         <rect key="frame" x="90.5" y="70" width="233" height="230"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="233" id="9t4-BU-EVl"/>
@@ -4809,6 +4789,9 @@
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="MC4-40-OcQ" kind="show" id="j6h-v8-jAQ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -4892,7 +4875,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GLV-ug-67m" userLabel="Middle">
                                 <rect key="frame" x="0.0" y="105" width="414" height="575"/>
                                 <subviews>
-                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.30000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="NUy-qf-J5S">
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="NUy-qf-J5S">
                                         <rect key="frame" x="20" y="20" width="374" height="4"/>
                                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <color key="tintColor" name="LightPink"/>
@@ -4956,7 +4939,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U2A-AF-Ts5" userLabel="Buttons">
                                 <rect key="frame" x="0.0" y="680" width="414" height="127"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-cT-g5J">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="HEP-cT-g5J">
                                         <rect key="frame" x="94.5" y="23.5" width="225" height="44"/>
                                         <subviews>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JdN-tu-U4Q">
@@ -4969,7 +4952,10 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Sair" cornerStyle="fixed">
-                                                    <backgroundConfiguration key="background" cornerRadius="30"/>
+                                                    <backgroundConfiguration key="background" cornerRadius="30">
+                                                        <color key="backgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </backgroundConfiguration>
                                                     <fontDescription key="titleFontDescription" name="Mulish-Bold" family="Mulish" pointSize="16"/>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
@@ -4982,10 +4968,15 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="iPr-Qr-gud"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="HEP-cT-g5J" firstAttribute="top" secondItem="U2A-AF-Ts5" secondAttribute="top" constant="23.5" id="O7k-Hc-aH7"/>
                                     <constraint firstAttribute="height" constant="127" id="jef-yT-5Gk"/>
+                                    <constraint firstItem="HEP-cT-g5J" firstAttribute="centerX" secondItem="U2A-AF-Ts5" secondAttribute="centerX" id="niO-Px-Qpx"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -5176,6 +5167,9 @@
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="quV-Om-m42" kind="show" id="BSH-wl-1gP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -5235,6 +5229,7 @@
                             <outlet property="delegate" destination="quV-Om-m42" id="359-oL-FDT"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="u7w-J5-S3p"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="al7-1C-ub1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -5935,6 +5930,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="uhg-BZ-IN4" kind="show" id="Dld-af-fn1"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojw-dY-AZI">
                                                 <rect key="frame" x="0.0" y="59" width="225" height="44"/>
@@ -5958,6 +5956,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="QK4-Ti-cBz" kind="show" id="FGD-oQ-3dd"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -6131,6 +6132,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="UaQ-Yq-WfK" kind="show" id="oc8-uQ-54N"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmS-n9-2Kr">
                                                 <rect key="frame" x="0.0" y="59" width="225" height="44"/>
@@ -6154,6 +6158,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="QK4-Ti-cBz" kind="show" id="3U1-ND-Rdq"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -6315,7 +6322,7 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Baixar Modelo" cornerStyle="fixed">
+                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
                                                     <backgroundConfiguration key="background" cornerRadius="30">
                                                         <color key="backgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -6337,7 +6344,7 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Atualizar Estado" cornerStyle="fixed">
+                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
                                                     <backgroundConfiguration key="background" cornerRadius="30">
                                                         <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
@@ -6350,6 +6357,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="QK4-Ti-cBz" kind="show" id="cmb-CM-6lm"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -6511,7 +6521,7 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                 <color key="tintColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Baixar Modelo" cornerStyle="fixed">
+                                                <buttonConfiguration key="configuration" style="filled" title="Próximo" cornerStyle="fixed">
                                                     <backgroundConfiguration key="background" cornerRadius="30">
                                                         <color key="backgroundColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -6523,6 +6533,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="qVx-Kz-ddL" kind="show" id="nL0-BQ-hSj"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="84Y-gi-7n6">
                                                 <rect key="frame" x="0.0" y="59" width="225" height="44"/>
@@ -6533,7 +6546,7 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                 <color key="tintColor" red="0.88999998570000005" green="0.43099999430000002" blue="0.5099999905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="Próximo"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Atualizar Estado" cornerStyle="fixed">
+                                                <buttonConfiguration key="configuration" style="filled" title="Pular explicação" cornerStyle="fixed">
                                                     <backgroundConfiguration key="background" cornerRadius="30">
                                                         <color key="strokeColor" red="0.75294119120000003" green="0.25490197539999998" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </backgroundConfiguration>
@@ -6546,6 +6559,9 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="QK4-Ti-cBz" kind="show" id="AaW-mb-tZ5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -6580,7 +6596,7 @@ Essa declaração pode ser encontrada como “Declaração de Hipossuficiência"
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3X-zo-mIW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6351" y="1931"/>
+            <point key="canvasLocation" x="6350.7246376811599" y="1930.5803571428571"/>
         </scene>
         <!--Xica Manicongo 5-->
         <scene sceneID="JoN-bA-tF6">
@@ -7367,21 +7383,27 @@ As assinaturas deverão ser realizadas no cartório, no dia da abertura do proce
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="AaW-mb-tZ5"/>
+        <segue reference="01N-Fo-dR6"/>
+        <segue reference="VbY-xp-Y5Q"/>
+        <segue reference="CdQ-02-6w7"/>
         <segue reference="KFO-SJ-1ch"/>
-        <segue reference="oZW-07-zI6"/>
-        <segue reference="AXL-89-O1i"/>
+        <segue reference="lgE-Ra-G4d"/>
+        <segue reference="8xU-CT-6K2"/>
         <segue reference="Jho-Gr-N2Q"/>
         <segue reference="l8S-8B-Nrb"/>
         <segue reference="KIP-Ah-463"/>
         <segue reference="KWg-3d-4lL"/>
+        <segue reference="FBK-EO-cOP"/>
+        <segue reference="NrI-8C-l6f"/>
         <segue reference="Mbm-IE-5TD"/>
-        <segue reference="Fli-NG-Cy1"/>
-        <segue reference="MdN-q7-KxE"/>
-        <segue reference="IEb-5O-MED"/>
+        <segue reference="vYm-il-rsa"/>
+        <segue reference="3ak-tG-dM7"/>
+        <segue reference="t5P-UV-nUy"/>
         <segue reference="lGe-OF-cuY"/>
         <segue reference="Mwg-Sa-s4U"/>
-        <segue reference="zqz-cg-zOB"/>
-        <segue reference="VeU-ie-h7u"/>
+        <segue reference="nVG-eO-ovA"/>
+        <segue reference="pFe-VT-Uth"/>
         <segue reference="mdN-8O-EO8"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -7398,7 +7420,7 @@ As assinaturas deverão ser realizadas no cartório, no dia da abertura do proce
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="cuate" width="270" height="242"/>
         <image name="cuate - cópia" width="308" height="203"/>
-        <image name="cuate - cópia 3" width="300" height="256"/>
+        <image name="cuate - cópia 3" width="128" height="128"/>
         <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
         <image name="ilhaImage" width="375" height="314"/>
         <image name="ilhaPlay" width="50" height="50"/>

@@ -33,25 +33,27 @@ func getDocuments() {
                 }
                 
                 let response = try JSONSerialization.jsonObject(with: data, options: [])
-                print("Response:", response)
+//                print("Response:", response)
                 
                 let object = try JSONDecoder().decode([DocumentsParams].self, from: data)
 //                print(object)
                 
-                print("id:", object[0].id)
-                print("name:", object[0].name)
-                print("description:", object[0].description)
-                print("price:", object[0].price)
-                print("link:", object[0].link)
-                print("location:", object[0].location)
-                print("duration:", object[0].duration)
-                print("order:", object[0].order)
+//                print("id:", object[0].id)
+//                print("name:", object[0].name)
+//                print("shortDescription:", object[0].shortDescription)
+//                print("fullDescription:", object[0].fullDescription)
+//                print("price:", object[0].price)
+//                print("link:", object[0].link)
+//                print("location:", object[0].location)
+//                print("duration:", object[0].duration)
+                
                 
             } catch {
-                print(error.localizedDescription)
+                print(error)
             }
         }
     }.resume()
     
 }
 //getDocuments()
+

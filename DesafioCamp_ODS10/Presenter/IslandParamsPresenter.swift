@@ -1,5 +1,5 @@
 //
-//  UserDocumentsPresenter.swift
+//  IslandParamsPresenter.swift
 //  DesafioCamp_ODS10
 //
 //  Created by Rita Lisboa on 21/04/22.
@@ -7,15 +7,13 @@
 
 import Foundation
 
-func getUserDocuments(userId: String) {
-    let baseURL = URL(string: "https://ods10-backend-develop.herokuapp.com/api/users/\(userId)/documents")!
+func getIsland() {
+    let baseURL = URL(string: "https://ods10-backend-develop.herokuapp.com/api/islands")!
     
     var urlRequest = URLRequest(url: baseURL)
     
-//    urlRequest.allHTTPHeaderFields = ["application/json": "content-Type"]
     urlRequest.allHTTPHeaderFields = ["content-type": "application/json"]
     urlRequest.httpMethod = "GET"
-//    urlRequest.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
     
     URLSession.shared.dataTask(with: urlRequest) {data, response, error in
         if let error = error {
@@ -31,21 +29,22 @@ func getUserDocuments(userId: String) {
                     print("Invalid Response received from the server")
                     return
                 }
-                
+//
                 let response = try JSONSerialization.jsonObject(with: data, options: [])
 //                print("Response:", response)
                 
-                let object = try JSONDecoder().decode([UserDocumentsParams].self, from: data)
-//                print(object[0])
-                
-//                print("document:", object[0].document)
-//                print("status:", object[0].status)
+                let object = try JSONDecoder().decode([IslandParams].self, from: data)
+//                print(object)
+//
+                print("name:", object[0].name)
+                print("description:", object[0].description)
+//                print("price:", object[0].documents)
                 
             } catch {
-                print(error)
+                print(error.localizedDescription)
             }
         }
     }.resume()
     
 }
-//getUserDocuments(userId: "99fed5de-575b-40ec-aee8-01258aa596be")
+//getIsland()
