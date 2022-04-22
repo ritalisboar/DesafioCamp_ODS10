@@ -15,14 +15,14 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var FilterList: UICollectionView!
     @IBOutlet weak var tableViewList: UITableView!
     
-    var documents: [DocumentsParams] = [
-    ]
-  
-    override func viewDidLoad() {
-        super.viewDidLoad()
-//        homeTableView.delegate = self
-//        homeTableView.dataSource = self
-    }
+//    var documents: [DocumentsParams] = [
+//    ]
+//  
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+////        homeTableView.delegate = self
+////        homeTableView.dataSource = self
+//    }
     
     private lazy var homeTableView: UITableView = {
         let homeTableView = UITableView()
