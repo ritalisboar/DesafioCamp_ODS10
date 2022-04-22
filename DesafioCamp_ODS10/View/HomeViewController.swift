@@ -19,8 +19,8 @@ class HomeViewController: UIViewController, UIScrollViewDelegate {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-        homeTableView.delegate = self
-        homeTableView.dataSource = self
+//        homeTableView.delegate = self
+//        homeTableView.dataSource = self
     }
     
     private lazy var homeTableView: UITableView = {

@@ -492,6 +492,7 @@
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesafioCamp_ODS10/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Re.tifica;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -522,6 +523,7 @@
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesafioCamp_ODS10/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Re.tifica;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

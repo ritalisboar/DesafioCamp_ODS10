@@ -5,35 +5,17 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.502",
-          "green" : "0.388",
-          "red" : "0.145"
+          "blue" : "0.675",
+          "green" : "0.208",
+          "red" : "0.267"
         }
       },
       "idiom" : "universal"
     },
     {
-      "color" : {
-        "color-space" : "srgb",
-        "components" : {
-          "alpha" : "1.000",
-          "blue" : "0.502",
-          "green" : "0.388",
-          "red" : "0.145"
-        }
-      },
       "idiom" : "iphone"
     },
     {
-      "color" : {
-        "color-space" : "srgb",
-        "components" : {
-          "alpha" : "1.000",
-          "blue" : "0.502",
-          "green" : "0.388",
-          "red" : "0.145"
-        }
-      },
       "idiom" : "ipad"
     }
   ],
