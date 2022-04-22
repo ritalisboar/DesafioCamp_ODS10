@@ -141,7 +141,7 @@
                                                 <rect key="frame" x="20" y="285" width="374" height="157"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="." backgroundImage="buttonGameficacao">
+                                                <state key="normal" title="." backgroundImage="buttonGame">
                                                     <color key="titleColor" name="DarkBlue"/>
                                                 </state>
                                                 <connections>
@@ -12947,7 +12947,7 @@ As assinaturas deverão ser realizadas no cartório, no dia da abertura do proce
         <image name="buttonBack" width="60" height="60"/>
         <image name="buttonDownModal" width="64" height="64"/>
         <image name="buttonExit" width="60" height="60"/>
-        <image name="buttonGameficacao" width="345" height="157"/>
+        <image name="buttonGame" width="345" height="157"/>
         <image name="buttonList" width="60" height="60"/>
         <image name="buttonNext" width="60" height="60"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
