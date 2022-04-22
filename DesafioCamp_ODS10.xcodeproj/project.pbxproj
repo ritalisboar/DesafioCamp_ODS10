@@ -37,6 +37,7 @@
 		7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */; };
 		A65BE843280D941200CC24F4 /* DocumentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65BE842280D941200CC24F4 /* DocumentsListViewController.swift */; };
 		A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69874AB280BB321007F37BA /* ModalHomeViewController.swift */; };
+		A6ED76442812194300EBD608 /* DocumentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ED76432812194200EBD608 /* DocumentsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
 		A65BE842280D941200CC24F4 /* DocumentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListViewController.swift; sourceTree = "<group>"; };
 		A69874AB280BB321007F37BA /* ModalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeViewController.swift; sourceTree = "<group>"; };
+		A6ED76432812194200EBD608 /* DocumentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsList.swift; sourceTree = "<group>"; };
 		C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.release.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */,
 				7E1084A82811C511006B3C9E /* IslandParams.swift */,
 				7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */,
+				A6ED76432812194200EBD608 /* DocumentsList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				7E1084A52811AD42006B3C9E /* UserDocumentsPresenter.swift in Sources */,
 				7E1084A92811C512006B3C9E /* IslandParams.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
+				A6ED76442812194300EBD608 /* DocumentsList.swift in Sources */,
 				7E1084AD2811CC4E006B3C9E /* UserIslandParams.swift in Sources */,
 				A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */,
 				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
