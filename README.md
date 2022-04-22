@@ -19,7 +19,7 @@ Decidiu-se, com isso, criar um produto que facilite/otimize o processo de retifi
 
 Por se tratar de um bootcamp, o tempo das coisas é muito mais acelerado. O projeto iOS foi sendo construido ao passo que o layout era desenvolvido. Nós, Rita Lisboa e Ricardo Avakian, optamos, de início, por construir o aplicativo em view code. Contudo, no com o passar do tempo, percebemos que este caminho seria incompatível com o tamanho do projeto e os nossos prazos.
 Em comum acordo, decidimos por recuar um pouco e seguir para uma solução viável. Demos uma pausa no plano A (https://github.com/ritalisboar/Desafio_IoasysCamp_ODS10) e seguimos para o plano B: este projeto em storyboard.
-O Re.tifica foi construido em storyboard, utilizando a arquitetura MVP e o gerenciador de dependências Cocoapods.
+O Re.tifica foi construido em storyboard, utilizando a arquitetura MVP.
 O app é apresentado com uma tela home, listagem de documentos simples, ilhas de documentação gameficada, interação com a API e a possibilidade de acompanhar a evolução do processo de retificação.
 
 
