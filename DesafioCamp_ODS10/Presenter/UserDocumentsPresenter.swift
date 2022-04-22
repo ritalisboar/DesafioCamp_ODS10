@@ -1,8 +1,8 @@
 //
 //  UserDocumentsPresenter.swift
-//  RetificaTRANS
+//  DesafioCamp_ODS10
 //
-//  Created by Rita Lisboa on 09/04/22.
+//  Created by Rita Lisboa on 21/04/22.
 //
 
 import Foundation
@@ -33,17 +33,19 @@ func getUserDocuments(userId: String) {
                 }
                 
                 let response = try JSONSerialization.jsonObject(with: data, options: [])
-                print("Response:", response)
+//                print("Response:", response)
                 
                 let object = try JSONDecoder().decode([UserDocumentsParams].self, from: data)
-                print(object)
+//                print(object[0])
                 
 //                print("document:", object[0].document)
 //                print("status:", object[0].status)
-    
+                
             } catch {
-                print(error.localizedDescription)
+                print(error)
             }
         }
     }.resume()
+    
 }
+//getUserDocuments(userId: "99fed5de-575b-40ec-aee8-01258aa596be")

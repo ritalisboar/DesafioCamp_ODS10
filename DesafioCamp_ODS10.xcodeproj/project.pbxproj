@@ -8,16 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		51CADEA5C3513FD1117385C3 /* Pods_DesafioCamp_ODS10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */; };
+		7E1084A32811AD34006B3C9E /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */; };
+		7E1084A52811AD42006B3C9E /* UserDocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */; };
+		7E1084A72811AD4F006B3C9E /* DocumentsDonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */; };
+		7E1084A92811C512006B3C9E /* IslandParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084A82811C511006B3C9E /* IslandParams.swift */; };
+		7E1084AB2811C53A006B3C9E /* IslandParamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */; };
+		7E1084AD2811CC4E006B3C9E /* UserIslandParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */; };
+		7E1084AF2811CC67006B3C9E /* UserIslandParamsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */; };
+		7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FA280B52D00060FECD /* TableViewList.swift */; };
+		7E2D15FD280B5DDD0060FECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D15FC280B5DDD0060FECD /* Constants.swift */; };
+		7E2D1602280B99AA0060FECD /* DMSerifDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D1600280B99AA0060FECD /* DMSerifDisplay-Regular.ttf */; };
+		7E2D1603280B99AA0060FECD /* DMSerifDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D1601280B99AA0060FECD /* DMSerifDisplay-Italic.ttf */; };
 		7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */; };
 		7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */; };
-		7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */; };
-		7E4D3915280B4E2D00A7F25B /* UserDocumentsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3914280B4E2D00A7F25B /* UserDocumentsPresenter.swift */; };
-		7E4D3917280B4E4C00A7F25B /* DocumentsDonePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3916280B4E4C00A7F25B /* DocumentsDonePresenter.swift */; };
 		7E4D3919280B4ECC00A7F25B /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */; };
 		7E4D391B280B4F1200A7F25B /* TableCellComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */; };
 		7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D68E280B06D40095AFFB /* AppDelegate.swift */; };
 		7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D690280B06D40095AFFB /* SceneDelegate.swift */; };
-		7E58D693280B06D40095AFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D692280B06D40095AFFB /* ViewController.swift */; };
+		7E58D693280B06D40095AFFB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D692280B06D40095AFFB /* HomeViewController.swift */; };
 		7E58D696280B06D40095AFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D694280B06D40095AFFB /* Main.storyboard */; };
 		7E58D698280B06D50095AFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D697280B06D50095AFFB /* Assets.xcassets */; };
 		7E58D69B280B06D50095AFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */; };
@@ -27,22 +35,33 @@
 		7E58D6AA280B0BEB0095AFFB /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */; };
 		7E58D6AC280B13650095AFFB /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */; };
 		7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */; };
+		A65BE843280D941200CC24F4 /* DocumentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65BE842280D941200CC24F4 /* DocumentsListViewController.swift */; };
+		A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69874AB280BB321007F37BA /* ModalHomeViewController.swift */; };
+		A6ED76442812194300EBD608 /* DocumentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6ED76432812194200EBD608 /* DocumentsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.debug.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.debug.xcconfig"; sourceTree = "<group>"; };
 		797B211730F0ACC4395CEF95 /* Pods_DesafioCamp_ODS10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioCamp_ODS10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
+		7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsPresenter.swift; sourceTree = "<group>"; };
+		7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDonePresenter.swift; sourceTree = "<group>"; };
+		7E1084A82811C511006B3C9E /* IslandParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandParams.swift; sourceTree = "<group>"; };
+		7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandParamsPresenter.swift; sourceTree = "<group>"; };
+		7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIslandParams.swift; sourceTree = "<group>"; };
+		7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIslandParamsPresenter.swift; sourceTree = "<group>"; };
+		7E2D15FA280B52D00060FECD /* TableViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewList.swift; sourceTree = "<group>"; };
+		7E2D15FC280B5DDD0060FECD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7E2D1600280B99AA0060FECD /* DMSerifDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		7E2D1601280B99AA0060FECD /* DMSerifDisplay-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifDisplay-Italic.ttf"; sourceTree = "<group>"; };
 		7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsParams.swift; sourceTree = "<group>"; };
 		7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsParams.swift; sourceTree = "<group>"; };
-		7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsPresenter.swift; sourceTree = "<group>"; };
-		7E4D3914280B4E2D00A7F25B /* UserDocumentsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDocumentsPresenter.swift; sourceTree = "<group>"; };
-		7E4D3916280B4E4C00A7F25B /* DocumentsDonePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDonePresenter.swift; sourceTree = "<group>"; };
 		7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
 		7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellComposition.swift; sourceTree = "<group>"; };
 		7E58D68B280B06D40095AFFB /* DesafioCamp_ODS10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioCamp_ODS10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E58D68E280B06D40095AFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E58D690280B06D40095AFFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7E58D692280B06D40095AFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E58D692280B06D40095AFFB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7E58D695280B06D40095AFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E58D697280B06D50095AFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E58D69A280B06D50095AFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +72,9 @@
 		7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-Black.ttf"; sourceTree = "<group>"; };
 		7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
 		7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureStoryboard.swift; sourceTree = "<group>"; };
+		A65BE842280D941200CC24F4 /* DocumentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListViewController.swift; sourceTree = "<group>"; };
+		A69874AB280BB321007F37BA /* ModalHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalHomeViewController.swift; sourceTree = "<group>"; };
+		A6ED76432812194200EBD608 /* DocumentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsList.swift; sourceTree = "<group>"; };
 		C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioCamp_ODS10.release.xcconfig"; path = "Target Support Files/Pods-DesafioCamp_ODS10/Pods-DesafioCamp_ODS10.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,6 +98,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7E1084A12811AD0D006B3C9E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7E1084A22811AD34006B3C9E /* DocumentsPresenter.swift */,
+				7E1084A42811AD42006B3C9E /* UserDocumentsPresenter.swift */,
+				7E1084A62811AD4F006B3C9E /* DocumentsDonePresenter.swift */,
+				7E1084AA2811C53A006B3C9E /* IslandParamsPresenter.swift */,
+				7E1084AE2811CC67006B3C9E /* UserIslandParamsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7E2D15F8280B51B90060FECD /* TableList */ = {
+			isa = PBXGroup;
+			children = (
+				7E2D15FA280B52D00060FECD /* TableViewList.swift */,
+				7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */,
+				7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */,
+			);
+			path = TableList;
+			sourceTree = "<group>";
+		};
+		7E2D15F9280B51F30060FECD /* FilterList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FilterList;
+			sourceTree = "<group>";
+		};
 		7E4D390A280B4C9000A7F25B /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,24 +136,15 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		7E4D390B280B4CA400A7F25B /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				7E4D3912280B4E0700A7F25B /* DocumentsPresenter.swift */,
-				7E4D3914280B4E2D00A7F25B /* UserDocumentsPresenter.swift */,
-				7E4D3916280B4E4C00A7F25B /* DocumentsDonePresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
 		7E4D390C280B4CB000A7F25B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
 				7E58D694280B06D40095AFFB /* Main.storyboard */,
-				7E58D692280B06D40095AFFB /* ViewController.swift */,
-				7E4D3918280B4ECC00A7F25B /* HomeTableView.swift */,
-				7E4D391A280B4F1200A7F25B /* TableCellComposition.swift */,
+				A69874AB280BB321007F37BA /* ModalHomeViewController.swift */,
+				A65BE842280D941200CC24F4 /* DocumentsListViewController.swift */,
+				7E58D692280B06D40095AFFB /* HomeViewController.swift */,
+				7E2D15F8280B51B90060FECD /* TableList */,
+				7E2D15F9280B51F30060FECD /* FilterList */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +154,9 @@
 			children = (
 				7E4D390E280B4DD000A7F25B /* DocumentsParams.swift */,
 				7E4D3910280B4DEA00A7F25B /* UserDocumentsParams.swift */,
+				7E1084A82811C511006B3C9E /* IslandParams.swift */,
+				7E1084AC2811CC4E006B3C9E /* UserIslandParams.swift */,
+				A6ED76432812194200EBD608 /* DocumentsList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,12 +184,14 @@
 			children = (
 				7E4D390D280B4CB700A7F25B /* Model */,
 				7E4D390C280B4CB000A7F25B /* View */,
-				7E4D390B280B4CA400A7F25B /* Presenter */,
+				7E1084A12811AD0D006B3C9E /* Presenter */,
 				7E58D6A2280B0AE00095AFFB /* Fonts */,
 				7E58D6AD280B25D30095AFFB /* ConfigureStoryboard.swift */,
 				7E4D390A280B4C9000A7F25B /* Delegates */,
 				7E58D697280B06D50095AFFB /* Assets.xcassets */,
 				7E58D69C280B06D50095AFFB /* Info.plist */,
+				7E58D699280B06D50095AFFB /* LaunchScreen.storyboard */,
+				7E2D15FC280B5DDD0060FECD /* Constants.swift */,
 			);
 			path = DesafioCamp_ODS10;
 			sourceTree = "<group>";
@@ -157,6 +204,8 @@
 				7E58D6A7280B0BDE0095AFFB /* Mulish-Regular.ttf */,
 				7E58D6A9280B0BEB0095AFFB /* Mulish-Black.ttf */,
 				7E58D6AB280B13650095AFFB /* Mulish-SemiBold.ttf */,
+				7E2D1601280B99AA0060FECD /* DMSerifDisplay-Italic.ttf */,
+				7E2D1600280B99AA0060FECD /* DMSerifDisplay-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -167,7 +216,6 @@
 				2203F455AC22DEDCAD0BF8EE /* Pods-DesafioCamp_ODS10.debug.xcconfig */,
 				C46FEC746C888F08C4BC3599 /* Pods-DesafioCamp_ODS10.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -234,7 +282,9 @@
 				7E58D6AA280B0BEB0095AFFB /* Mulish-Black.ttf in Resources */,
 				7E58D698280B06D50095AFFB /* Assets.xcassets in Resources */,
 				7E58D6A6280B0BD60095AFFB /* Mulish-Medium.ttf in Resources */,
+				7E2D1603280B99AA0060FECD /* DMSerifDisplay-Italic.ttf in Resources */,
 				7E58D6A8280B0BDE0095AFFB /* Mulish-Regular.ttf in Resources */,
+				7E2D1602280B99AA0060FECD /* DMSerifDisplay-Regular.ttf in Resources */,
 				7E58D6AC280B13650095AFFB /* Mulish-SemiBold.ttf in Resources */,
 				7E58D696280B06D40095AFFB /* Main.storyboard in Resources */,
 				7E58D6A4280B0BCD0095AFFB /* Mulish-Bold.ttf in Resources */,
@@ -273,16 +323,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1084AB2811C53A006B3C9E /* IslandParamsPresenter.swift in Sources */,
+				7E1084AF2811CC67006B3C9E /* UserIslandParamsPresenter.swift in Sources */,
 				7E4D391B280B4F1200A7F25B /* TableCellComposition.swift in Sources */,
-				7E4D3915280B4E2D00A7F25B /* UserDocumentsPresenter.swift in Sources */,
-				7E58D693280B06D40095AFFB /* ViewController.swift in Sources */,
+				7E58D693280B06D40095AFFB /* HomeViewController.swift in Sources */,
 				7E4D3911280B4DEA00A7F25B /* UserDocumentsParams.swift in Sources */,
-				7E4D3913280B4E0700A7F25B /* DocumentsPresenter.swift in Sources */,
-				7E4D3917280B4E4C00A7F25B /* DocumentsDonePresenter.swift in Sources */,
 				7E58D68F280B06D40095AFFB /* AppDelegate.swift in Sources */,
+				7E2D15FD280B5DDD0060FECD /* Constants.swift in Sources */,
 				7E4D3919280B4ECC00A7F25B /* HomeTableView.swift in Sources */,
 				7E4D390F280B4DD000A7F25B /* DocumentsParams.swift in Sources */,
+				7E1084A72811AD4F006B3C9E /* DocumentsDonePresenter.swift in Sources */,
+				A65BE843280D941200CC24F4 /* DocumentsListViewController.swift in Sources */,
+				7E1084A32811AD34006B3C9E /* DocumentsPresenter.swift in Sources */,
+				7E2D15FB280B52D00060FECD /* TableViewList.swift in Sources */,
+				7E1084A52811AD42006B3C9E /* UserDocumentsPresenter.swift in Sources */,
+				7E1084A92811C512006B3C9E /* IslandParams.swift in Sources */,
 				7E58D691280B06D40095AFFB /* SceneDelegate.swift in Sources */,
+				A6ED76442812194300EBD608 /* DocumentsList.swift in Sources */,
+				7E1084AD2811CC4E006B3C9E /* UserIslandParams.swift in Sources */,
+				A69874AC280BB321007F37BA /* ModalHomeViewController.swift in Sources */,
 				7E58D6AE280B25D30095AFFB /* ConfigureStoryboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -415,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,6 +496,7 @@
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesafioCamp_ODS10/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Re.tifica;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,6 +527,7 @@
 				DEVELOPMENT_TEAM = 6BRAUQJ3C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DesafioCamp_ODS10/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Re.tifica;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

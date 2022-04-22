@@ -9,5 +9,5 @@ import Foundation
 
 struct UserDocumentsParams: Codable {
     let document: DocumentsParams
-    let status: String
+    let status: String?
 }

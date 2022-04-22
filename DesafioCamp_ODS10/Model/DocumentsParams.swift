@@ -8,12 +8,12 @@
 import Foundation
 
 struct DocumentsParams: Codable {
-    let id: String
-    let name: String
-    let description: String
-    let price: Int
-    let link: String
-    let location: String
-    let duration: String
-    let order: Int
+    let id: String?
+    let name: String?
+    let shortDescription: String?
+    let fullDescription: String?
+    let price: Int?
+    let link: String?
+    let location: String?
+    let duration: String?
 }
